@@ -1,0 +1,10 @@
+AddDefaultCharset uft-8
+
+RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} ^([A-Za-z0-9\.])*\.htaccess
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php [L]
+
+#RewriteBase /
+#RewriteRule ^(.*)$ index.php
