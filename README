@@ -9,6 +9,7 @@ Folders and Files Structure:
 [F] /app/config/settings.php: application configuration file
 [F] /app/routes.php         : routes for mapping requested URL to specific controller and action
 [D] /app/classes            : directory for any classes used by application
+[F] /app/DB.php             : class that provides basic access to database
 [F] /app/mvcEngine.php      : class for translation requested URL into MVC paradigm
 [D] /app/core               : directory of core MVC classes of application 
 [F] /app/Router.php         : Router who routes user requests to specific controller and action 
@@ -31,7 +32,7 @@ Model class files have names       : <Name>Model.php
 
 How to use this skeleton.
 First of all you should download sources and put it into your project (website) directory
-Than you should to next steps:
+Than you should perform following steps:
 1/ Where: in file /index.php
 1.1/ What: fill appropriate path to application folder шт constant APP_DIR, or leave it unchanged
 1.2/ What: fill appropriate filename for application entryPoint in constant ENTRY_POINT, or leave it unchanged
