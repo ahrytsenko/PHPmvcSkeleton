@@ -6,6 +6,7 @@ Folders and Files Structure:
 [D] /app                    : application directory
 [F] /app/entryPoint.php     : entry point of application. Called from /index.php
 [D] /app/config             : directory for any configuration of application
+[F] /app/config/settings.php: application configuration file
 [F] /app/routes.php         : routes for mapping requested URL to specific controller and action
 [D] /app/classes            : directory for any classes used by application
 [F] /app/mvcEngine.php      : class for translation requested URL into MVC paradigm
