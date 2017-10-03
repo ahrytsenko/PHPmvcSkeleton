@@ -1,7 +1,7 @@
 MVC Application Skeleton (PHP)
 
 Folders and Files Structure:
-[F] /READ.ME                : This file
+[F] /README                 : This file
 [F] /index.php              : main file of application loaded by webserver by default
 [D] /app                    : application directory
 [F] /app/entryPoint.php     : entry point of application. Called from /index.php
