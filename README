@@ -12,7 +12,10 @@ Folders and Files Structure:
 [F] /app/DB.php             : class that provides basic access to database
 [F] /app/mvcEngine.php      : class for translation requested URL into MVC paradigm
 [D] /app/core               : directory of core MVC classes of application 
-[F] /app/Router.php         : Router who routes user requests to specific controller and action 
+[F] /app/core/Router.php    : Router who routes user requests to specific controller and action 
+[F] /app/core/Model.php     : base class for application models
+[F] /app/core/View.php      : class that provide basic View methods 
+[F] /app/core/Controller.php: base class for application controllers 
 [D] /app/controllers        : directory of particular controllers
 [D] /app/models             : directory of particular models
 [D] /app/views              : directory of particular views
